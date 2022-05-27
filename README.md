@@ -8,4 +8,17 @@
 
     <img src="https://github.com/PameFSL/AplicacionJavaenContenedor_p1/blob/main/imagenes/pasos.png" width="60%">
     
-3. c
+
+## Comandos importantes
+ - Para crear el contenedor, es importante estar en la direccion en donde se encuentra el proyecto y ejecutar: 
+    <b> docker build -t nombreContenedor:version .  </b>
+    
+    Por ejemplo: 
+    <b>docker build -t launchx-docker:1.0 .  </b>
+    
+ - Comando para ejecutar el contenedor:  <b>  docker run launchx-docker:1.0 </b>
+ 
+ - Si se realizan cambios en el proyecto y se desea actualizar el contenedor, será necesario volver a ejecutar el primer comando (actualizando la version).     
+    <b>docker build -t launchx-docker:2.0 .  </b>
+
+    Y lo mismo para la ejecucion  <b>  docker run launchx-docker:2.0 </b>
