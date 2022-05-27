@@ -1,0 +1,5 @@
+DemoViernesL  -- DemoContainerApp
+
+Los contenedores se utilizan para poder ejecutar proyectos en cualquier logar 
+sin tener que tener la misma configuracion y versiones que el usuarios creador 
+del proyecto 
